@@ -38,10 +38,10 @@ def load_library(file_path)
   emoticons_hash
 end
 
-def get_japanese_emoticon(file_path, emoticon_hash)
+def get_japanese_emoticon(file_path, unknown)
   
-  emoticon_is_this_hash = load_library(file_path)
-  pp emoticon_is_this_hash
+  emoticon = load_library(file_path)
+  
   
 end
 
