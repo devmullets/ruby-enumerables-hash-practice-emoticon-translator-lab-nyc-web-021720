@@ -42,10 +42,11 @@ def get_japanese_emoticon(file_path, english_emoji)
   
   emoticons_hash = load_library(file_path)
   
-  puts english_emoji
+  # puts english_emoji
   
   if emoticons_hash.key?(english_emoji)
-    return emoticons_hash[:get_emoticon][english_emoji]
+    # return emoticons_hash[:get_emoticon][english_emoji]
+    puts "Found the key"
   else 
     return "Sorry, that emoticon was not found"
   end 
