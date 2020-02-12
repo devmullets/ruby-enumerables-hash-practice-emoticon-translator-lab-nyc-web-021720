@@ -46,7 +46,7 @@ def get_japanese_emoticon(file_path, english_emoji)
   
   if emoticons_hash.key?(english_emoji)
     # found_emoji = emoticons_hash[:get_emoticon][english_emoji]
-    puts emoticons_hash[:get_emoticon][english_emoji]
+    puts "I think we found the key here: #{emoticons_hash[:get_emoticon][english_emoji]}"
     puts "Found the key"
   else 
     return "Sorry, that emoticon was not found"
