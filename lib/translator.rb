@@ -41,6 +41,7 @@ end
 def get_japanese_emoticon(file_path, emoticon_hash)
   
   emoticon_is_this_hash = load_library(file_path)
+  pp emoticon_is_this_hash
   
 end
 
