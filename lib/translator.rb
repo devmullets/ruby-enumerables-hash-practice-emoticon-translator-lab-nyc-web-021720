@@ -17,9 +17,11 @@ def load_library(file_path)
   # let's cycle thru the hash and break it down
   # emoji_def will gives us the definition
   # two_emojis is an array that we need to split out
+  
   emoticons.each do |emoji_def, two_emojis| 
     
     # this spits out each emoji element in array [ english , japanese ]
+  
     two_emojis.each_with_index do |single , index| 
       if index == 0 
         # we want to make a hash that is { english => japanese emoji }
