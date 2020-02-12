@@ -28,13 +28,14 @@ def load_library(file_path)
         english_emoji = two_emojis[0]
         emoticons_hash[:get_emoticon][english_emoji] = two_emojis[1]
       else 
+        # we want to make a hash that is { japanese_emoji => meaning
         japanese_emoji = two_emojis[1]
         emoticons_hash[:get_meaning][japanese_emoji] = emoji_def
       end 
     end
   end    
-  # pp emoticons
-  pp emoticons_hash
+  # pp emoticons_hash
+  emoticons_hash
 end
 
 def get_japanese_emoticon
