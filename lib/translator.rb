@@ -38,11 +38,11 @@ def load_library(file_path)
   emoticons_hash
 end
 
-def get_japanese_emoticon(file_path, japanese_emoji)
+def get_japanese_emoticon(file_path, english_emoji)
   
   emoticons_hash = load_library(file_path)
   
-  puts japanese_emoji
+  puts english_emoji
   
   # if emoticons_hash.key?(japanese_emoji)
   #   return emoticons_hash[japanese_emoji]
