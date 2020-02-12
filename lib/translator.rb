@@ -10,8 +10,8 @@ def load_library(file_path)
  
   # binding.pry
   emoticons_hash = {
-    :get_meaning {}, #japanese
-    :get_emoticon {}
+    :get_meaning {}, #japanese to meaning
+    :get_emoticon {} #
   }
   
   # let's cycle thru the hash and break it down
