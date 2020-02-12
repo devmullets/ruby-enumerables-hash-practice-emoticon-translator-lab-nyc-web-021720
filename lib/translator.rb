@@ -34,7 +34,7 @@ def load_library(file_path)
       end 
     end
   end    
-  pp emoticons_hash
+  # pp emoticons_hash
   emoticons_hash
 end
 
